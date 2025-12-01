@@ -13,7 +13,7 @@ cp env.template .env
 nano .env # populate variables
 # Put doco-cd up
 docker compose -f doco-compose.yaml up -d
-docker compose logs -f
+docker compose -f doco-compose.yaml logs  -f
 ```
 
 ## Additional convinence setup 
