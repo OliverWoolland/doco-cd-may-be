@@ -1,6 +1,9 @@
 # doco-cd-may-be
 A quick test of doco-cd for automatically deploying github repos 
 
+While generally `doco-cd.yml` and the doco-cd deployment compose file would live 
+in different repos, they are bundled here to make everything needed obvious.
+
 ## Setup
 
 Run these commands to setup doco-cd for your testing
@@ -8,7 +11,8 @@ Run these commands to setup doco-cd for your testing
 ```
 cp env.template .env
 nano .env # populate variables
-docker compose up -d
+# Put doco-cd up
+docker compose -f doco-compose up -d
 docker compose logs -f
 ```
 
