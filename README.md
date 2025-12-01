@@ -12,7 +12,7 @@ Run these commands to setup doco-cd for your testing
 cp env.template .env
 nano .env # populate variables
 # Put doco-cd up
-docker compose -f doco-compose up -d
+docker compose -f doco-compose.yaml up -d
 docker compose logs -f
 ```
 
