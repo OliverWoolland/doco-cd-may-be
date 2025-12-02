@@ -31,7 +31,9 @@ docker compose -f doco-compose.yaml logs  -f
 >
 > These commands give you a quick start for trying out doco-cd, they are not how you would work in production.
 
-First install the Github cli tool (if you don't have it already). A guide for specific distros can be found [here]([url](https://github.com/cli/cli/blob/trunk/docs/install_linux.md), or the following general method applied
+First install the Github cli tool (if you don't have it already). 
+
+A guide for specific distros can be found [here]([url](https://github.com/cli/cli/blob/trunk/docs/install_linux.md), or the following general method applied
 
 ```bash
 curl -sS https://webi.sh/gh \| sh
