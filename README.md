@@ -33,12 +33,12 @@ docker compose -f doco-compose.yaml logs  -f
 
 First install the Github cli tool (if you don't have it already). 
 
-A guide for specific distros can be found [https://github.com/cli/cli/blob/trunk/docs/install_linux.md](here), or the following general method
+A guide for specific distros can be found [here](https://github.com/cli/cli/blob/trunk/docs/install_linux.md), or the following general method can be used
 
 ```bash
 curl -sS https://webi.sh/gh \| sh
 ```
-Next, obtain a Github acccess token, easiest with the `gh` tool.
+Next, obtain a Github acccess token, easiest with the `gh` tool
 
 ```bash
 gh auth
