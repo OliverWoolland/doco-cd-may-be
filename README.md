@@ -9,7 +9,7 @@ in different repos, they are bundled here to make everything needed obvious.
 Run these commands to setup doco-cd. 
 
 > [!TIP]
-> If you want to quickly try out a development grade setup, skip to `Development setup```.
+> If you want to quickly try out a development grade setup, skip to `Development setup`.
 
 First populate the environment, using the Github web UI to create tokens, secrets and a webhook.
 
